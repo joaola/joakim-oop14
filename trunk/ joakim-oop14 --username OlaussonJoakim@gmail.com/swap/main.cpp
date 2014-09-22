@@ -7,8 +7,8 @@ int main(){
 	swapclass c;
 	float x = 0;
 	float y = 1;
-	string a = "hej";
-	string b = "då";
+	string a = "tjenare";
+	string b = "mannen";
 	cout << " x: " << x << " y: " << y<<endl;
 	cout << " a: " << a << " b: " << b << endl;
 	c.SWAP(&x,&y);
