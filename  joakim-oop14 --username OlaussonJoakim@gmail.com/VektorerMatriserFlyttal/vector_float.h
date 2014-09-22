@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 class vector_float
 {
 private: 
@@ -11,4 +12,3 @@ public:
 	vector_float();
 	~vector_float();
 };
-
