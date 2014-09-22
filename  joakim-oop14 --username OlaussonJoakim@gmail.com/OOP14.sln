@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyCar", "MyCar\MyCar.vcxproj", "{1472BBE7-8990-4174-8670-BCD67CB3DBF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tarning", "tarning\tarning.vcxproj", "{F1C66CC4-5934-4806-B87D-E4C58AF9FC8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiMedia", "MultiMedia\MultiMedia.vcxproj", "{9355AB03-70F4-43B6-B83D-646871FECB0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe", "TicTacToe\TicTacToe.vcxproj", "{15C71696-CFAD-4B47-A5B3-D3A931D8EDE5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memoryspel", "Memory\Memory.vcxproj", "{6F17843C-60F6-4C2C-90BD-2A0111C3D475}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap", "swap\swap.vcxproj", "{DA21B6CE-4D5E-49B3-90ED-2AD477E033E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1472BBE7-8990-4174-8670-BCD67CB3DBF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1472BBE7-8990-4174-8670-BCD67CB3DBF3}.Debug|Win32.Build.0 = Debug|Win32
+		{1472BBE7-8990-4174-8670-BCD67CB3DBF3}.Release|Win32.ActiveCfg = Release|Win32
+		{1472BBE7-8990-4174-8670-BCD67CB3DBF3}.Release|Win32.Build.0 = Release|Win32
+		{F1C66CC4-5934-4806-B87D-E4C58AF9FC8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1C66CC4-5934-4806-B87D-E4C58AF9FC8D}.Debug|Win32.Build.0 = Debug|Win32
+		{F1C66CC4-5934-4806-B87D-E4C58AF9FC8D}.Release|Win32.ActiveCfg = Release|Win32
+		{F1C66CC4-5934-4806-B87D-E4C58AF9FC8D}.Release|Win32.Build.0 = Release|Win32
+		{9355AB03-70F4-43B6-B83D-646871FECB0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9355AB03-70F4-43B6-B83D-646871FECB0A}.Debug|Win32.Build.0 = Debug|Win32
+		{9355AB03-70F4-43B6-B83D-646871FECB0A}.Release|Win32.ActiveCfg = Release|Win32
+		{9355AB03-70F4-43B6-B83D-646871FECB0A}.Release|Win32.Build.0 = Release|Win32
+		{15C71696-CFAD-4B47-A5B3-D3A931D8EDE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15C71696-CFAD-4B47-A5B3-D3A931D8EDE5}.Debug|Win32.Build.0 = Debug|Win32
+		{15C71696-CFAD-4B47-A5B3-D3A931D8EDE5}.Release|Win32.ActiveCfg = Release|Win32
+		{15C71696-CFAD-4B47-A5B3-D3A931D8EDE5}.Release|Win32.Build.0 = Release|Win32
+		{6F17843C-60F6-4C2C-90BD-2A0111C3D475}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F17843C-60F6-4C2C-90BD-2A0111C3D475}.Debug|Win32.Build.0 = Debug|Win32
+		{6F17843C-60F6-4C2C-90BD-2A0111C3D475}.Release|Win32.ActiveCfg = Release|Win32
+		{6F17843C-60F6-4C2C-90BD-2A0111C3D475}.Release|Win32.Build.0 = Release|Win32
+		{DA21B6CE-4D5E-49B3-90ED-2AD477E033E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA21B6CE-4D5E-49B3-90ED-2AD477E033E7}.Debug|Win32.Build.0 = Debug|Win32
+		{DA21B6CE-4D5E-49B3-90ED-2AD477E033E7}.Release|Win32.ActiveCfg = Release|Win32
+		{DA21B6CE-4D5E-49B3-90ED-2AD477E033E7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
