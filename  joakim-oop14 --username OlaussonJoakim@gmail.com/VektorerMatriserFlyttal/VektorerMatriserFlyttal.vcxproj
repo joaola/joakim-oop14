@@ -78,6 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\vector_float.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\main.cpp" />
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\vector_float.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
