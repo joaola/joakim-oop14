@@ -18,12 +18,18 @@
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\vector_float.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\matrix_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\vector_float.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\VektorerMatriserFlyttal\matrix_float.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
