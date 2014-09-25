@@ -1,14 +1,22 @@
-﻿Build started 2014-09-25 10:41:16.
+﻿Build started 2014-09-25 16:49:38.
      1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\vector_float.cpp"
-         vector_float.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\VektorerMatriserFlyttal.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\VektorerMatriserFlyttal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\VektorerMatriserFlyttal.lib" /MACHINE:X86 Debug\main.obj
-         Debug\vector_float.obj
-         VektorerMatriserFlyttal.vcxproj -> C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\VektorerMatriserFlyttal.exe
-     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\matrix_float.cpp"
+         matrix_float.cpp
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): error C2084: function 'matrix_float::matrix_float(void)' already has a body
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.h(15) : see previous definition of '{ctor}'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(8): error C2601: 'matrix_float::create_matrix' : local function definitions are illegal
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(12): error C2601: 'matrix_float::delete_matrix' : local function definitions are illegal
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(16): error C2601: 'read_from_keyboard' : local function definitions are illegal
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(22): error C2143: syntax error : missing '}' before ';'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(22): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(24): error C2059: syntax error : '}'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(24): error C2143: syntax error : missing ';' before '}'
+     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.73
+Time Elapsed 00:00:00.11

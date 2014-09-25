@@ -28,7 +28,7 @@ void vector_float::print() {
 	for (int i = 0; i < this->size; i++)
 	{
 		cout << "v[" << i << "]=";
-		cout << this->v_ptr[i];
+		cout << this->v_ptr[i]<<endl;
 
 	}
 }
