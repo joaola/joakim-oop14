@@ -1,8 +1,9 @@
 #pragma once
+#include <vector>
 class matrix_float
 {
 
-private: 
+private:
 	float **mptr;
 	int r_size;
 	int c_size;
@@ -10,11 +11,15 @@ private:
 	void delete_matrix();
 public:
 	void set(int value, int r, int c);
-	void read_from_keyboard();
 	void print();
-	matrix_float() {
-		r_size = 0;
+	void read_from_keyboard();
+	float &operator [](int i){
+		return *mptr[i];
 	}
+	matrix_float() {
+	r_size = 0;
+	c_size = 0;
+		}
 	~matrix_float();
-};
 
+};
