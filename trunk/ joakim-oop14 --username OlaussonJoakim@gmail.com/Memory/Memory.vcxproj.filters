@@ -18,5 +18,19 @@
     <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

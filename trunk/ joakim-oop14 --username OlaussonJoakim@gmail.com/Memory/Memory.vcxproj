@@ -79,7 +79,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\card.cpp" />
     <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\main.cpp" />
+    <ClCompile Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\card.h" />
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
