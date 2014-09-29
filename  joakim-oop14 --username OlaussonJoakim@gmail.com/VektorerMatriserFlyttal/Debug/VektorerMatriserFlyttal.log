@@ -1,22 +1,19 @@
-﻿Build started 2014-09-25 16:49:38.
+﻿Build started 2014-09-29 12:21:14.
      1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\matrix_float.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\main.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\matrix_float.cpp"
          matrix_float.cpp
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): error C2084: function 'matrix_float::matrix_float(void)' already has a body
-                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.h(15) : see previous definition of '{ctor}'
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(8): error C2601: 'matrix_float::create_matrix' : local function definitions are illegal
-                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(12): error C2601: 'matrix_float::delete_matrix' : local function definitions are illegal
-                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(16): error C2601: 'read_from_keyboard' : local function definitions are illegal
-                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(5): this line contains a '{' which has not yet been matched
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(22): error C2143: syntax error : missing '}' before ';'
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(22): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(24): error C2059: syntax error : '}'
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(24): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(6): error C2084: function 'matrix_float::matrix_float(void)' already has a body
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.h(23) : see previous definition of '{ctor}'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(29): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(7): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'c' used
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'r' used
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'val' used
      1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:01.04

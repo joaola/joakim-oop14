@@ -12,7 +12,11 @@ private:
 public:
 	void set(int value, int r, int c);
 	void print();
-	void read_from_keyboard();
+	//void read_from_keyboard();
+	matrix_float(int c, int r)
+	{
+		create_matrix(c,r);
+	}
 	float &operator [](int i){
 		return *mptr[i];
 	}
