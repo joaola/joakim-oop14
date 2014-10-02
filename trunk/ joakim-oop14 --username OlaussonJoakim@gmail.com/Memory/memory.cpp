@@ -1,6 +1,7 @@
 #include "memory.h"
 #include "player.h"
 #include "card.h"
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -17,6 +18,8 @@ memory::memory(){
 		for (int j = 0; j < c; j++)
 		{
 			(*cvv)[i][j] = card();
+			this->c = i;
+			this->r = j;
 		}
 	}
 }
