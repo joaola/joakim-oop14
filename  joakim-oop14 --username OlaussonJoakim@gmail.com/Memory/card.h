@@ -2,9 +2,13 @@
 class card
 {
 public:
-	void antalKort();
-	int *cvv;
+	char front;
+	int back;
+	int r;
+	int c;
+	bool inGame;
 	card();
+	card(int b);
 	~card();
 };
 
