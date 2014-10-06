@@ -4,7 +4,5 @@
 #include <iostream>
 using namespace std;
 void main(){
-	memory a;
-
 	system("pause");
 }
