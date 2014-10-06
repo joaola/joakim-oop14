@@ -4,9 +4,7 @@ class card
 public:
 	char front;
 	int back;
-	int r;
-	int c;
-	bool inGame;
+	bool faceUp;
 	card();
 	card(int b);
 	~card();

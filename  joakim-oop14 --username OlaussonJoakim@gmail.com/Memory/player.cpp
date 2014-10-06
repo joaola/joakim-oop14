@@ -5,6 +5,9 @@ player::player()
 {
 }
 
+void gameStatus(){
+
+}
 
 player::~player()
 {
