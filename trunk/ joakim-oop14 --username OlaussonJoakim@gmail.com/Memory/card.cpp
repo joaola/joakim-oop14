@@ -7,12 +7,12 @@ card::card()
 {
 	front = 'M';
 	back = -1;
-	inGame = false;
+	faceUp = false;
 }
 card::card(int b){
 	front = 'M';
 	back = b;
-	inGame = true;
+	faceUp = true;
 }
 
 

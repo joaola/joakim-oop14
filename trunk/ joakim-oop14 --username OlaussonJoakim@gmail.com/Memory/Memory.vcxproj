@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\card.h" />
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\Console.h" />
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\memory.h" />
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\player.h" />
   </ItemGroup>

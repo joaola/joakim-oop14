@@ -2,9 +2,9 @@
 class player
 {
 public:
-
 	player();
-	int p;
+	int score;
+	void gameStatus();
 	~player();
 };
 

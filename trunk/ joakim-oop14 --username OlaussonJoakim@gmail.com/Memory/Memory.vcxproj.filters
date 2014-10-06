@@ -38,5 +38,8 @@
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\Memory\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
