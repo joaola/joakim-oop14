@@ -1,13 +1,12 @@
-﻿Build started 2014-10-06 14:37:19.
+﻿Build started 2014-10-09 09:31:42.
      1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\Memory.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\card.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\main.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\memory.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\main.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\Memory\memory.cpp"
          memory.cpp
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\memory\memory.cpp(69): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-         card.cpp
-         Generating Code...
-         Skipping... (no relevant changes detected)
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\memory\memory.cpp(79): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
          main.cpp
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\memory\main.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\Memoryspel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\Memoryspel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\Debug\Memoryspel.lib" /MACHINE:X86 Debug\card.obj
          Debug\main.obj
@@ -18,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.70
+Time Elapsed 00:00:01.63
