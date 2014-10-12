@@ -71,7 +71,7 @@ void memory::moveCursor(char c){
 		this->r -= 1;
 	else if (c == 'd'&&r < 2)
 		this->r += 1;
-	Console::gotoxy(this->c * 3, this->r * 3);
+	Console::gotoxy(this->c, this->r);
 
 }
 
