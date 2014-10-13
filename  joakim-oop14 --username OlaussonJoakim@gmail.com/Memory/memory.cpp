@@ -12,14 +12,19 @@ memory::memory(int r, int c, int p){
 	this->r = r;
 	this->c = c;
 	this->p = p;
+	for (int i = 0; i < this->p; i++)
+	{
+		players.push_back(player());
+	}
 	init();
 }
 memory::memory(){
 	this->r = r;
 	this->c = c;
 	this->p = p;
+	this->ycursor = 0;
+	this->xcursor = 0;
 	}
-
 
 void memory::init(){
 
@@ -34,7 +39,7 @@ void memory::init(){
 		for (int j = 0; j < c; j++)
 		{
 			int b = i*c + j;
-			(*cvv)[i][j] = card(b);
+			(*cvv)[i][j] = card(b+65);
 		}
 	}
 
@@ -43,40 +48,60 @@ void memory::init(){
 		for (int j = 0; j < c; j++)
 		{
 			int b = (i - r / 2)*c + j;
-			(*cvv)[i][j] = card(b);
+			(*cvv)[i][j] = card(b+65);
 		}
 	}
 
 }
-void memory::drawBoard(){
 
+void memory::drawBoard(){
+	
 	for (int i = 0; i < r; i++)
 	{
 		for (int j = 0; j < c; j++)
 		{
-			cout << (*cvv)[i][j].back << " ";
+			cout << (*cvv)[i][j].front << " ";
 		}
 		cout << endl;
+		
 	}
+}
 
+void memory::flipCards(char c){
+	if (c == '\r'){
+		cout << (*cvv)[this->xcursor][this->ycursor].back<< " ";
+	}
 }
 	
 void memory::moveCursor(char c){
 
-	if (c == 'w' && this->c>0)
-		this->c -= 1;
-	else if (c == 's' && this->c<2)
-		this->c += 1;
-	else if (c == 'a' && this->r> 0)
-		this->r -= 1;
-	else if (c == 'd'&&r < 2)
-		this->r += 1;
-	Console::gotoxy(this->c, this->r);
+	if (c == 'w' && this->ycursor>0)
+		this->ycursor -= 1;
+	else if (c == 's' && this->ycursor<this->c-1) // c-1 för att ta bort tom extra rad
+		this->ycursor += 1;
+	else if (c == 'a' && this->xcursor> 0)
+		this->xcursor -= 1;
+	else if (c == 'd'&&xcursor < this->c-1) //c-1 för att ta bort tom extra kolumn
+		this->xcursor += 1;
+	Console::gotoxy(this->xcursor*2, this->ycursor);
+
+}
+
+void memory::showPlayers(){
+	for (int i = 0; i < this->p; i++)
+	{
+		Console::gotoxy(0, 20+i);
+
+		cout << "Player " << i + 1 << ":" << players[i].getScore();
+	}
+}
+
+void memory::countScore(){
 
 }
 
 void memory::shuffleCards(){
-	srand(time(NULL));
+	srand(time_t(NULL));
 	for (int i = 0; i < 10000; i++)
 	{
 		int r1 = rand() % r;

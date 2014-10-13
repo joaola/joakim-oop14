@@ -3,10 +3,12 @@
 
 player::player()
 {
+	this->score = 0;
+
 }
 
-void gameStatus(){
-
+int player::getScore(){
+	return this->score;
 }
 
 player::~player()
