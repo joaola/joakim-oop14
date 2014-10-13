@@ -3,7 +3,7 @@ class card
 {
 public:
 	char front;
-	int back;
+	char back;
 	bool inGame;
 	card();
 	card(int b);

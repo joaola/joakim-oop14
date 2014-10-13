@@ -4,7 +4,7 @@ class player
 public:
 	player();
 	int score;
-	void gameStatus();
+	int getScore();
 	~player();
 };
 
