@@ -5,7 +5,6 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <sstream>
 #include <clocale>
 using namespace std;
 class articleRegister{
@@ -13,6 +12,15 @@ private:
 	string newsPaper;
 	vector<Article> v;
 public:
+	articleRegister(){
+		newsPaper = "";
+	}
+	string getNewsPaper(){
+		return newsPaper;
+	}
+	void setNewsPaper(string newsPaper){
+		this->newsPaper = newsPaper;
+	}
 	string List(){
 		ostringstream oss;
 
@@ -33,6 +41,66 @@ public:
 		}
 		fout.close();
 	}
+	void readFromFile() //För teständamål
+	{
+		readFromFile("test.txt");
+	}
+	void readFromFile(string fileName){
+		string str, strRow;
+		ifstream fin;
 
+		try{
+			fin.open(fileName);
+			if (!fin.good()){
+				cout << "Gick ej att öppna" << endl;
+				return;
+			}
+			v.clear(); //Nollställer vektorn
+			while (getline(fin, strRow)){
+				istringstream iss(strRow);
+				getline(iss, str, '='); //Ny rad
+				if (str.compare("articleRegister") == 0){
+					getline(iss, this->newsPaper);
+				}
+				else if (str.compare("Article") == 0){
+					Article a; //Skapar en ny nollställd artikel, VIKTIGT!
+					iss >> a;
+					if (a.getId() != -1){
+						v.push_back(a);
+					}
+				}
+			}
+			fin.close();
+		}
+		catch (exception e){
+			cerr << "Exception: " << fileName << endl;
+			cerr << e.what() << endl;
+		}
+	}
+
+	void Add(Article a){
+		v.push_back(a);
+	}
+
+	string searchKeyword(string keyword)
+	{
+		ostringstream oss;
+		for (auto &item : v)
+		{
+			if (item.getKeyword() == keyword){
+				oss << item << endl;
+			}
+		}
+		return oss.str();
+	}
+	string searchWordInTitle(string word){
+		ostringstream oss;
+		for (auto &item : v){
+			if (item.getTitle().find(word) != string::npos){
+				oss << item << endl;
+			}
+		}
+		return oss.str();
+	}
 	~articleRegister();
 };
