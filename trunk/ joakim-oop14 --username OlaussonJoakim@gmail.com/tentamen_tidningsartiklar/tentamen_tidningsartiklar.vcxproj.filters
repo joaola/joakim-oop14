@@ -23,5 +23,8 @@
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\Article.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\articleRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
