@@ -34,7 +34,7 @@ void main3_4(){
 	ar.Add(a2);
 	ar.Add(a3);
 
-	ar.SetNewsPaper("Dfs nyheter");
+	ar.setNewsPaper("Dfs nyheter");
 
 	string s = ar.List();
 
