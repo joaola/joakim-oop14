@@ -83,6 +83,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\Article.h" />
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\articleRegister.h" />
+    <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\Database.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

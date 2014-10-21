@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <sstream>
+#include <clocale>
 #pragma once
 using namespace std;
 class Article{
@@ -52,7 +54,7 @@ public:
 		cout << "nyckelord= " << keyword << endl;
 	}
 
-	friend ostream& operator<< (ostream& out, const Article &a){
+	friend ostream & operator<< (ostream &out, const Article &a){
 		out << "(";
 		out << a.id << ",";
 		out << a.date << ",";

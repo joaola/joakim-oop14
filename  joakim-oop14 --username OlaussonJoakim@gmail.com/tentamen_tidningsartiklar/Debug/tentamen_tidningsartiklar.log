@@ -1,0 +1,117 @@
+﻿Build started 2014-10-21 13:29:30.
+     1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_tidningsartiklar\tentamen_tidningsartiklar.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_tidningsartiklar\main.cpp"
+         main.cpp
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(111): error C2535: 'void Article::setTitle(std::string)' : member function already defined or declared
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(110) : see declaration of 'Article::setTitle'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(73): error C2678: binary '>>' : no operator found which takes a left-hand operand of type 'std::basic_istream<char,std::char_traits<char>>' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(430): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(411): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(392): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(373): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(353): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(335): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(317): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(291): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(272): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(237): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(218): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(211): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(204): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(198): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,const int>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)'
+                 with
+                 [
+                     _Ty=const int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+                 while trying to match the argument list '(std::basic_istream<char,std::char_traits<char>>, const int)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(76): error C2665: 'std::getline' : none of the 2 overloads could convert all the argument types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145): could be 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72): or       'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 while trying to match the argument list '(std::istream, const std::string, char)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(78): error C2665: 'std::getline' : none of the 2 overloads could convert all the argument types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145): could be 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72): or       'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 while trying to match the argument list '(std::istream, const std::string, char)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(80): error C2665: 'std::getline' : none of the 2 overloads could convert all the argument types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145): could be 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72): or       'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 while trying to match the argument list '(std::istream, const std::string, char)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(82): error C2678: binary '>>' : no operator found which takes a left-hand operand of type 'std::istream' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(430): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(411): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(392): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(373): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(353): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(335): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(317): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(291): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(272): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(237): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(218): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(211): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(204): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(198): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,const int>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)'
+                 with
+                 [
+                     _Ty=const int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+                 while trying to match the argument list '(std::istream, const int)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\article.h(85): error C2665: 'std::getline' : none of the 2 overloads could convert all the argument types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145): could be 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72): or       'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 while trying to match the argument list '(std::istream, const std::string, char)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_tidningsartiklar\articleregister.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_tidningsartiklar\tentamen_tidningsartiklar.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.92
