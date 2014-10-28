@@ -1,13 +1,14 @@
 #pragma once
 #include "Article.h"
 #include "articleRegister.h"
-#include <iostream>
-#include <vector>
+#include <string>
 #include <clocale>
+#include <iostream>
+#include <string>
 #include <array>
+#include <vector>
 #include <algorithm>
 #include <memory>
-#include <string>
 using namespace std;
 class Database : public vector<articleRegister>{
 public:
@@ -56,5 +57,7 @@ public:
 		return s;
 	}
 
-	~Database(void);
+	~Database(void){
+
+	}
 };

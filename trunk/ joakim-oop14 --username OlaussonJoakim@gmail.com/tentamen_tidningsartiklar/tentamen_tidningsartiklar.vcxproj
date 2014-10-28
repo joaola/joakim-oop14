@@ -85,6 +85,11 @@
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\articleRegister.h" />
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\Database.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db.txt" />
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db_one.txt" />
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db_two.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
