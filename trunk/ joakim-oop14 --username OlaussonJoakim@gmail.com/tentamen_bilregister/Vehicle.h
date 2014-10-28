@@ -13,7 +13,7 @@ private:
 	double sellingPrice;
 	
 public:
-	Vehicle(){
+	Vehicle(void){
 
 		this->brand = "";
 		this->year = this->purchasingPrice = this->sellingPrice = 0;
@@ -57,10 +57,10 @@ public:
 		cout << "Selling price: " << sellingPrice << endl;
 	}
 
-	friend ostream & operator << (operator << &out, const Vehicle &vehicle){
+	friend ostream & operator << (ostream &out, const Vehicle &vehicle){
 		out << "(";
 	}
 	
 
-	~Vehicle();
+	~Vehicle(void);
 };
