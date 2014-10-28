@@ -16,7 +16,8 @@ public:
 	Vehicle(void){
 
 		this->brand = "";
-		this->year = this->purchasingPrice = this->sellingPrice = 0;
+		this->year = 0;
+		this->purchasingPrice = this->sellingPrice = 0;
 	}
 
 	Vehicle(string brand, int year, double purchasingPrice, double sellingPrice){
@@ -28,8 +29,8 @@ public:
 
 	string getBrand(){ return this->brand; }
 	int getYear(){ return this->year; }
-	double purchasingPrice(){ return this->purchasingPrice; }
-	double sellingPrice(){ return this->sellingPrice; }
+	double getPurchasingPrice(){ return this->purchasingPrice; }
+	double getSellingPrice(){ return this->sellingPrice; }
 
 	void setBrand(){ this->brand = brand; }
 	void setYear(){ this->year = year; }
@@ -62,5 +63,7 @@ public:
 	}
 	
 
-	~Vehicle(void);
+	~Vehicle(void){
+
+	}
 };
