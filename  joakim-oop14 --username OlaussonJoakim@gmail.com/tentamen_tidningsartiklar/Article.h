@@ -1,8 +1,9 @@
+#pragma once
+
 #include <iostream>
 #include <string>
 #include <sstream>
 #include <clocale>
-#pragma once
 using namespace std;
 class Article{
 
@@ -16,7 +17,7 @@ private:
 
 public:
 
-	Article(){
+	Article(void){
 		this->id = -1;
 		this->date = this->title = this->writer = this->keyword = " ";
 		this->n = 0;
@@ -66,23 +67,23 @@ public:
 		return out;
 	}
 
-	friend istream& operator>>(istream& in, const Article &a){
+	friend istream & operator>>(istream &in, Article &a){
 		string s;
-		getline(in, s, '(');
+		getline( in, s, '(' );
 		
 		in >> skipws >> a.id;
-		getline(in , s, ',');
+		getline( in , s, ',' );
 
-		getline(in, a.date, ',');
+		getline( in, a.date, ',' );
 		
-		getline(in, a.title, ',');
+		getline( in, a.title, ',' );
 
-		getline(in, a.writer, ',');
+		getline( in, a.writer, ',' );
 
 		in >> a.n;
-		getline(in, s, ',');
+		getline( in, s, ',' );
 
-		getline(in, a.keyword, ')');
+		getline( in, a.keyword, ')' );
 
 		return in;
 	}
@@ -94,6 +95,9 @@ public:
 		this->writer = writer;
 		this->keyword = keyword;
 		this->n = n;
+	}
+
+	~Article(void){
 	}
 	
 	//Get
@@ -108,9 +112,8 @@ public:
 	void setId(int id){ this->id = id; }
 	void setDate(string date){ this->date = date; }
 	void setTitle(string title){ this->title = title; }
-	void setTitle(string writer){ this->writer = writer; }
+	void setWriter(string writer){ this->writer = writer; }
 	void setN(int n){ this->n = n; }
 	void setKeyword(string keyword){ this->keyword = keyword; }
 
-	~Article();
 };

@@ -12,7 +12,7 @@ private:
 	string newsPaper;
 	vector<Article> v;
 public:
-	articleRegister(){
+	articleRegister(void){
 		newsPaper = "";
 	}
 	string getNewsPaper(){
@@ -21,12 +21,15 @@ public:
 	void setNewsPaper(string newsPaper){
 		this->newsPaper = newsPaper;
 	}
+	void Add(Article a){
+		v.push_back(a);
+	}
 	string List(){
 		ostringstream oss;
 
 		string s = "";
 
-		for (int i = 0; i < v.size(); i++){
+		for (size_t i = 0; i < v.size(); i++){
 			oss << v[i] << endl;
 		}
 		return oss.str();
@@ -78,10 +81,6 @@ public:
 		}
 	}
 
-	void Add(Article a){
-		v.push_back(a);
-	}
-
 	string searchKeyword(string keyword)
 	{
 		ostringstream oss;
@@ -102,5 +101,7 @@ public:
 		}
 		return oss.str();
 	}
-	~articleRegister();
+	~articleRegister(void){
+
+	}
 };

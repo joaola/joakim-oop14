@@ -30,4 +30,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db_one.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_tidningsartiklar\db_two.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
