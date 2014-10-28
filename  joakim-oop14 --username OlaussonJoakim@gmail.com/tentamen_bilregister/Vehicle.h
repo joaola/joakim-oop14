@@ -2,6 +2,7 @@
 #include <iostream>
 #include <sstream>
 #include <clocale>
+#include <vector>
 using namespace std;
 #pragma once
 
@@ -11,6 +12,7 @@ private:
 	int year;
 	double purchasingPrice;
 	double sellingPrice;
+	vector<Vehicle>v;
 	
 public:
 	Vehicle(void){
@@ -38,16 +40,16 @@ public:
 	void setSellingPrice(){ this->sellingPrice = sellingPrice; }
 
 	void read(){
-		cout << "Brand: " << endl;
+		cout << "Brand: ";
 		getline(cin, brand);
 
-		cout << "Year: " << endl;
+		cout << "Year: ";
 		cin >> year;
 
-		cout << "Purchasing price: " << endl;
+		cout << "Purchasing price: ";
 		cin >> purchasingPrice;
 
-		cout << "Selling price: " << endl;
+		cout << "Selling price: ";
 		cin >> sellingPrice;
 	}
 
@@ -60,9 +62,35 @@ public:
 
 	friend ostream & operator << (ostream &out, const Vehicle &vehicle){
 		out << "(";
+		out << vehicle.brand << ",";
+		out << vehicle.year << ",";
+		out << vehicle.purchasingPrice << ",";
+		out << vehicle.sellingPrice << ",";
+		out << ")";
+		return out;
+	}
+
+	friend istream & operator >> (istream &in, Vehicle &vehicle)
+	{
+		string s;
+		getline(in, s, '(');
+
+		in >> skipws >> vehicle.brand;
+		getline(in, s, ',');
+
+		in>>skipws>>vehicle.year;
+		getline(in, s, ',');
+
+		in >> skipws >> vehicle.purchasingPrice;
+		getline(in, s, ',');
+
+		in >> skipws >> vehicle.sellingPrice;
+
+		getline(in, s, ')');
+
+		return in;
 	}
 	
-
 	~Vehicle(void){
 
 	}
