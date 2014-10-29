@@ -1,0 +1,2 @@
+vehicleRegister= Bilar till salu: 
+Vehicle= (3,Saab,1995,60000,30000)
