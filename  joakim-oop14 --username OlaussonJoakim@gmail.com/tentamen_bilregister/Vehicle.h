@@ -16,8 +16,9 @@ private:
 public:
 	Vehicle(void){
 
-		this->brand = "";
-		this->year= this->id = 0;
+		this->brand="";
+		this->year = 0;
+		this->id = -1;
 		this->purchasingPrice = this->sellingPrice = 0;
 	}
 
@@ -28,21 +29,13 @@ public:
 		this->purchasingPrice = purchasingPrice;
 		this->sellingPrice = sellingPrice;
 	}
-	int getId(){ return this->id; }
-	string getBrand(){ return this->brand; }
-	int getYear(){ return this->year; }
-	double getPurchasingPrice(){ return this->purchasingPrice; }
-	double getSellingPrice(){ return this->sellingPrice; }
-
-	void setId(){ this->id = id; }
-	void setBrand(){ this->brand = brand; }
-	void setYear(){ this->year = year; }
-	void setPurchasingPrice(){ this->purchasingPrice = purchasingPrice; }
-	void setSellingPrice(){ this->sellingPrice = sellingPrice; }
 
 	void read(){
+		string str;
 		cout << "Id: ";
 		cin >> id;
+
+		getline(cin, str);
 
 		cout << "Brand: ";
 		getline(cin, brand);
@@ -56,7 +49,7 @@ public:
 		cout << "Selling price: ";
 		cin >> sellingPrice;
 	}
-
+	
 	void write(){
 		cout << "Id: " << id << endl;
 		cout << "Brand: " << brand << endl;
@@ -71,7 +64,7 @@ public:
 		out << vehicle.brand << ",";
 		out << vehicle.year << ",";
 		out << vehicle.purchasingPrice << ",";
-		out << vehicle.sellingPrice << ",";
+		out << vehicle.sellingPrice;
 		out << ")";
 		return out;
 	}
@@ -84,16 +77,15 @@ public:
 		in >> skipws >> vehicle.id;
 		getline(in, s, ',');
 
-		in >> skipws >> vehicle.brand;
+		getline(in, vehicle.brand, ',');
+
+		in>>vehicle.year;
 		getline(in, s, ',');
 
-		in>>skipws>>vehicle.year;
+		in >> vehicle.purchasingPrice;
 		getline(in, s, ',');
 
-		in >> skipws >> vehicle.purchasingPrice;
-		getline(in, s, ',');
-
-		in >> skipws >> vehicle.sellingPrice;
+		in >> vehicle.sellingPrice;
 
 		getline(in, s, ')');
 
@@ -101,6 +93,18 @@ public:
 	}
 	
 	~Vehicle(void){
-
 	}
+	/*Getters*/
+	int getId(){ return this->id; }
+	string getBrand(){ return this->brand; }
+	int getYear(){ return this->year; }
+	double getPurchasingPrice(){ return this->purchasingPrice; }
+	double getSellingPrice(){ return this->sellingPrice; }
+
+	/*Setters*/
+	void setId(int id){ this->id = id; }
+	void setBrand(string brand){ this->brand = brand; }
+	void setYear(int year){ this->year = year; }
+	void setPurchasingPrice(double purchasingPrice){ this->purchasingPrice = purchasingPrice; }
+	void setSellingPrice(double sellingPrice){ this->sellingPrice = sellingPrice; }
 };

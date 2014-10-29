@@ -6,6 +6,7 @@
 #include <vector>
 #include "Vehicle.h"
 #include <clocale>
+#include "Vehicle.h"
 using namespace std;
 class vehicleRegister{
 
@@ -32,7 +33,9 @@ public:
 	string list(){
 		ostringstream oss;
 		string s = "";
-		for (int i = 0; i < v.size(); i++)
+		int u;
+		u = v.size();
+		for (int i = 0; i < u; i++)
 		{
 			oss << v[i] << endl;
 		}
@@ -85,6 +88,16 @@ public:
 			cerr << "Exception: " << fileName << endl;
 			cerr << e.what() << endl;
 		}
+	}
+	
+	double calculateStorageValue(){
+		double sumOfPurchase=0;
+		for (int i = 0; i < (int)(v.size()); i++)
+		{
+			sumOfPurchase += v[i].getPurchasingPrice();
+
+		}
+		return sumOfPurchase;
 	}
 
 	~vehicleRegister(void){
