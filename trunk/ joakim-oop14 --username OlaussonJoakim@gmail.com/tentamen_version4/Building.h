@@ -31,6 +31,9 @@ public:
 			if (str == v[i].getTypeOfRoom()){
 				return v[i].getTypeOfRoom();
 			}
+			else{}
+				
+				
 		}
 		return "Hittades ej";
 	}
