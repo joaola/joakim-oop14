@@ -97,10 +97,10 @@ public:
 		this->n = n;
 	}
 
-	~Article(void){
+	~Article(void){ //Destruktor
 	}
 	
-	//Get
+	//Getters
 	int getId(){return this->id;}
 	string getDate(){return this->date;}
 	string getTitle(){ return this->title; }
@@ -108,7 +108,7 @@ public:
 	int getN(){ return this->n; }
 	string getKeyword(){ return this->keyword; }
 
-	//Set
+	//Setters
 	void setId(int id){ this->id = id; }
 	void setDate(string date){ this->date = date; }
 	void setTitle(string title){ this->title = title; }

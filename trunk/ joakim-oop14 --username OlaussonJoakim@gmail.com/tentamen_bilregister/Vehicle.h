@@ -92,16 +92,16 @@ public:
 		return in;
 	}
 	
-	~Vehicle(void){
+	~Vehicle(void){ //Destruktor
 	}
-	/*Getters*/
+	//Getters
 	int getId(){ return this->id; }
 	string getBrand(){ return this->brand; }
 	int getYear(){ return this->year; }
 	double getPurchasingPrice(){ return this->purchasingPrice; }
 	double getSellingPrice(){ return this->sellingPrice; }
 
-	/*Setters*/
+	//Setters
 	void setId(int id){ this->id = id; }
 	void setBrand(string brand){ this->brand = brand; }
 	void setYear(int year){ this->year = year; }

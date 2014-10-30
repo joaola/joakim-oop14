@@ -14,7 +14,7 @@ void main(){
 	m.showPlayers();
 
 	while (true){
-		if (c == 'w' || c=='a' || c=='s' || c=='d' || c=='\r' || c==NULL){
+		if (c == 'w' || c=='a' || c=='s' || c=='d' || c=='\r' || c==NULL){ //wasd eller enter
 			m.moveCursor(c);
 			m.flipCards(c);
 			c = _getch();
