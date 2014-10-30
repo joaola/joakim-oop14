@@ -27,11 +27,14 @@ public:
 
 	string Search(string str){
 		room r1;
-		for (int i = 0; (int)(v.size()); i++){
+		for (int i = 0; i<(int)(v.size()); i++){
 			if (str == v[i].getTypeOfRoom()){
 				return v[i].getTypeOfRoom();
 			}
-			else{}
+			else
+			{
+				cout << "";
+			}
 				
 				
 		}
