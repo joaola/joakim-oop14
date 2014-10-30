@@ -26,5 +26,10 @@ namespace GuiNetA
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

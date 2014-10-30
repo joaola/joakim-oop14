@@ -64,10 +64,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(52, 102);
+            this.textBox1.Location = new System.Drawing.Point(52, 99);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(186, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // FormIndialog
             // 

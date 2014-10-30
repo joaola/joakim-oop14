@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Console.h"
 #include <conio.h>
-using namespace Course;
+using namespace Course; //slipper skriva course::
 
 int main(){
 	char c=NULL;
@@ -12,7 +12,7 @@ int main(){
 	{
 			
 
-		if (c == 'w' || c == 'a' || c == 's' || c == 'd' || c == '\r' || c == NULL) //wasd
+		if (c == 'w' || c == 'a' || c == 's' || c == 'd' || c == '\r' || c == NULL) //wasd, enter eller null
 		{
 			b.PlayerTurn(c);
 			b.DrawBoard();

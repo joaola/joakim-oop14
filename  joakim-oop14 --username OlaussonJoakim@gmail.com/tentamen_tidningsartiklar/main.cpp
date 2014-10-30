@@ -12,15 +12,13 @@
 #include <algorithm>
 #include <memory>
 #include <exception>
-#include <tchar.h>
 using namespace std;
-
-int _tmain(int argc, _TCHAR* arg[]){
 	//main3_1_2
-	cout << "main1_2" << endl;
+void main3_1_2(){
+	cout << "main1_2" << endl;	
 	Article a01;
 	Article a02(1, "2011-11-11", "Breaking news!", "Bob", 200, "nyhet");
-
+	
 	a01.Write();
 	a02.Write();
 
@@ -30,8 +28,10 @@ int _tmain(int argc, _TCHAR* arg[]){
 	a01.setWriter("Kalle kula");
 	a01.Write();
 	cout << "Författare" << a01.getWriter() << endl;
+}
 
 	//main3_3
+void main3_3(){
 	cout << "main3" << endl;
 	string str;
 	Article a1;
@@ -43,8 +43,10 @@ int _tmain(int argc, _TCHAR* arg[]){
 	cin >> a1;
 	getline(cin, str);
 	cout << a1 << endl;
+	}
 
 	//main3_4
+void main3_4(){
 	cout << "main4" << endl;
 
 	Article a4(1, "2011-11-11", "Breaking news", "Bob", 200, "nyhet");
@@ -61,8 +63,10 @@ int _tmain(int argc, _TCHAR* arg[]){
 	string s = ar1.List();
 
 	cout << s << endl;
+}
 
 	//main3_5
+void main3_5(){
 
 	cout << "main5" << endl;
 
@@ -77,15 +81,18 @@ int _tmain(int argc, _TCHAR* arg[]){
 
 	ar2.setNewsPaper("Dfs nyheter");
 	ar2.writeToFile();
+}
 
-	//main3_6
+//main3_6
+void main3_6(){
 	cout << "main6" << endl;
 	articleRegister ar3;
 	ar3.readFromFile();
 	cout << ar3.getNewsPaper() << endl;
 	cout << ar3.List() << endl;
-
-		//main4_1
+}
+	//main4_1
+void main4_1(){
 
 	cout << "main4_1" << endl;
 	Database db;
@@ -94,30 +101,16 @@ int _tmain(int argc, _TCHAR* arg[]){
 	cout << "\n\n" << db.List() << endl;
 	cout << "Sökning nyckelord: nyhet\n" << db.searchKeyword("nyhet") << endl;
 	cout << "Sökning ord i titel: Grekland\n" << db.searchWordInTitle("Grekland") << endl;
-	system("PAUSE");
-
-	return 0;
+	
 }
 
-/*int main(){
-	try
-	{
-		cout << "tema artikelregister" << endl;
-		//main3_1_2();
-		//main3_3();
-		//main3_4();
-		//main3_5();
-		//main3_6();
-		//main4_1();
-		//main5_1();
-	}
-	catch (exception e)
-	{
-		cerr << e.what() << endl;
-	}
-	catch (...){
-		cerr << "Okänt exception" << endl;
-
-		system("pause");
-		return 0;
-	}*/
+int main(){
+	cout << "tema artikelregister" << endl;
+	main3_1_2();
+	main3_3();
+	main3_4();
+	main3_5();
+	main3_6();
+	main4_1();
+	system("PAUSE");
+}

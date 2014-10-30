@@ -12,7 +12,7 @@ Dice::Dice()
 
 
 void Dice::ThrowDice() {
-	this->value = rand() % 6 + 1;
+	this->value = rand() % 6 + 1; //rand mellan 1-6
 }
 
 void Dice::PrintDice(){

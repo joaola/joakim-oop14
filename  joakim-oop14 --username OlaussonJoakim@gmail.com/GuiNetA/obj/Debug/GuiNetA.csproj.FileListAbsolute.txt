@@ -7,3 +7,4 @@ C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\GuiNet
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\GuiNetA\obj\Debug\GuiNetA.csproj.GenerateResource.Cache
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\GuiNetA\obj\Debug\GuiNetA.exe
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\GuiNetA\obj\Debug\GuiNetA.pdb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\GuiNetA\obj\Debug\GuiNetA.FormIndialog.resources
