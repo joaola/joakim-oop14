@@ -1,0 +1,4 @@
+Building: Apartment
+Room: (1,1,10,Bed)
+Room: (2,2,20,Living)
+Room: (3,3,15,Kitchen)
