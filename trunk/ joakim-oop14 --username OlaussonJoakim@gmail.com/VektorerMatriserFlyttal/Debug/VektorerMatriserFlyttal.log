@@ -1,7 +1,8 @@
-﻿Build started 2014-09-29 12:21:14.
-     1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2014-11-06 11:50:37.
+     1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" on node 3 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\main.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\matrix_float.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\main.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\matrix_float.cpp" "..\..\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\vector_float.cpp"
+         vector_float.cpp
          matrix_float.cpp
      1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.cpp(6): error C2084: function 'matrix_float::matrix_float(void)' already has a body
                  c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\matrix_float.h(23) : see previous definition of '{ctor}'
@@ -12,8 +13,8 @@
      1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'c' used
      1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'r' used
      1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\vektorermatriserflyttal\main.cpp(14): error C4700: uninitialized local variable 'val' used
-     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\VektorerMatriserFlyttal\VektorerMatriserFlyttal.vcxproj" (Rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.04
+Time Elapsed 00:00:02.34
