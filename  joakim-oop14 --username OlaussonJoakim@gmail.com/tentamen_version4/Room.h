@@ -3,6 +3,7 @@
 #include <istream>
 #include <ostream>
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 class room{
@@ -14,14 +15,12 @@ private:
 
 public:
 	room(void){ //konstruktor
-		this-> roomNr = -1;
-		this-> level = -1;
-		this-> area = -1;
+		this-> level = 0;
+		this-> area = 0;
 		this-> type_of_room = "";
 	}
 
-	room(int roomNr, int level, double area, string type_of_room){ //konstruktor med parametrar
-		this->roomNr = roomNr;
+	room(int level, double area, string type_of_room){ //konstruktor med parametrar
 		this->level = level;
 		this->area = area;
 		this->type_of_room = type_of_room;
@@ -29,9 +28,6 @@ public:
 
 	void Read(){
 		string str;
-
-		cout << "Room number: ";
-		cin>>roomNr;
 
 		cout << "Level: ";
 		cin >> level;
@@ -47,15 +43,13 @@ public:
 	}
 
 	void Write(){
-		cout << "Room number: " << roomNr << endl;
 		cout << "Level: " << level << endl;
 		cout << "Area: " << area << endl;
 		cout << "Type of room: " << type_of_room << endl;
 	}
 
-	friend ostream& operator <<(ostream& o, const room& Room){
+	friend ostream& operator <<(ostream &o, const room &Room){
 		o << "(";
-		o << Room.roomNr << ",";
 		o << Room.level << ",";
 		o << Room.area << ",";
 		o << Room.type_of_room;
@@ -66,9 +60,6 @@ public:
 	friend istream& operator >>(istream& i, room& Room){
 		string s;
 		getline(i, s, '(');
-
-		i >> skipws >> Room.roomNr; //int
-		getline(i, s, ',');
 		i >> Room.level; //int
 		getline(i, s, ',');
 		i >> Room.area; //double
@@ -87,9 +78,6 @@ public:
 
 	}
 
-	int getRoomNr(){ //getters
-		return this->roomNr;
-	}
 	int getLevel(){
 		return this->level;
 	}
@@ -100,10 +88,6 @@ public:
 
 	string getTypeOfRoom(){
 		return this->type_of_room;
-	}
-
-	void setRoomNr(int roomNr){ //setters
-		this->roomNr = roomNr;
 	}
 
 	void setLevel(int level){

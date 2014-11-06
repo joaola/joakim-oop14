@@ -56,14 +56,20 @@ public:
 
 	void WriteToFile(){
 		ofstream fout;
-		fout.open("test.txt");
-		fout << "Building: " << this->buildingType << endl;
+		fout.open("text.txt");
+		fout << "Building= "<< this->buildingType << endl;
 
-		for (auto &a : v){
-			fout << "Room: " << a << endl;
-		}
-		fout.close();
+		for (auto &a : v)
+			{
+				fout << "Room= " << a << endl;
+			}
+			
+			fout.close();
 	}
+
+	/*void ReadFromFile(){ //endast för testsyften
+		ReadFromFile("test.txt");
+	}*/
 
 	void ReadFromFile(string fileName){
 		string str, strRow;
@@ -86,7 +92,7 @@ public:
 				else if (str.compare("Room") == 0){
 					room r;
 					iss >> r;
-					if (r.getRoomNr()!=-1)
+					if (r.getArea()!=-1)
 					{
 						v.push_back(r);
 					}
@@ -110,7 +116,7 @@ public:
 		return sumOfArea;
 	}
 
-	~Building(void){
+	~Building(){
 
 	}
 };
