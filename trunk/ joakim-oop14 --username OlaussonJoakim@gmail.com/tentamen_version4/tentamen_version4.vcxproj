@@ -71,6 +71,9 @@
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_version4\Building.h" />
     <ClInclude Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_version4\Room.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ joakim-oop14 --username OlaussonJoakim%40gmail.com\tentamen_version4\Text.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -106,11 +106,11 @@ void main4_1(){
 
 int main(){
 	cout << "tema artikelregister" << endl;
-	main3_1_2();
-	main3_3();
-	main3_4();
-	main3_5();
+	//main3_1_2();
+	//main3_3();
+	//main3_4();
+	//main3_5();
 	main3_6();
-	main4_1();
+	//main4_1();
 	system("PAUSE");
 }

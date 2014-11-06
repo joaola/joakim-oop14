@@ -1,0 +1,4 @@
+Building= House
+Room= (1,10.5,Bed)
+Room= (2,20.4,Living)
+Room= (3,15.3,Kitchen)

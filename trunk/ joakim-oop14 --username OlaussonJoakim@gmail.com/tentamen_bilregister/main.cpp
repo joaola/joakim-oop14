@@ -66,17 +66,17 @@ using namespace std;
 	cout << "main3_6" << endl;
 	vr2.readFromFile("test.txt");
 	
-	cout << vr2.calculateStorageValue();
+	cout << vr2.calculateStorageValue() << endl;
 
 	system("PAUSE");
 	return 0;
 }
 
 int main(){
-	main3_1();
-	main3_2();
-	main3_3();
-	main3_4();
+	//main3_1();
+	//main3_2();
+	//main3_3();
+	//main3_4();
 	main3_6();
 	return 0;
 }

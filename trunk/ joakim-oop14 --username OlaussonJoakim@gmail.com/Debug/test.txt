@@ -1,0 +1,4 @@
+articleRegister= Dfs nyheter
+Article= (1,2011-11-11,Breaking news!,Bob,200,nyhet)
+Article= (2,2011 - 11 - 11,Breaking news!,Carl,200,nyhet)
+Article= (3,2011-11-11,Breaking news!,Charles,200,nyhet)
