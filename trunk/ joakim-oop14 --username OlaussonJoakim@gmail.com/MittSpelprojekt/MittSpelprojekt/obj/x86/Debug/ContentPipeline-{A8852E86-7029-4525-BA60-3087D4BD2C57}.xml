@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A8852E86-7029-4525-BA60-3087D4BD2C57}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojektContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-02T09:23:18.5812077+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
