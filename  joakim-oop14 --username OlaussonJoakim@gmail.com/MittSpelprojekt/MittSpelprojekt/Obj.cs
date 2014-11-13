@@ -14,31 +14,44 @@ namespace MittSpelprojekt
 {
     class Obj
     {
-        private Vector2 position;
-        private float rotation = 0.0f;
-        private string spriteName;
-        private Texture2D spriteIndex;
-        private float speed = 0.0f;
-        private float scale = 1.0f;
-        private Rectangle size;
-        private Vector2 center;
-        private Obj(Vector2 pos){
+        public Vector2 position;
+        public float rotation = 0.0f;
+        public string spriteName;
+        public Texture2D spriteIndex;
+        public float speed = 0.0f;
+        public float scale = 1.0f;
+        public Rectangle size;
+        public Vector2 center;
+        public Obj(Vector2 pos){
             position = pos;
-    }
-        private Obj()
+        }
+
+        public Obj()
         {
 
         }
-        private void LoadContent(ContentManager content, string spriteName)
+        public virtual void Update()
         {
-            spriteName = spriteName;
+            pushTo(speed, rotation);
+        }
+
+        public virtual void LoadContent(ContentManager content, string sprName)
+        {
+            spriteName = sprName;
             spriteIndex = content.Load<Texture2D>("sprites\\" + spriteName);
         }
-        private void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
             Rectangle size;
             Vector2 center = new Vector2(spriteIndex.Width/2, spriteIndex.Height/2);
-            spriteBatch.Draw(spriteIndex, position, null, Color.White, rotation, center, scale,SpriteEffects.None, 0)
+            spriteBatch.Draw(spriteIndex, position, null, Color.White, MathHelper.ToRadians(rotation), center, scale, SpriteEffects.None, 0);
+        }
+        public virtual void pushTo(float pix, float dir)
+        {
+            float newX = (float)Math.Cos(MathHelper.ToRadians(dir));
+            float newY = (float)Math.Sin(MathHelper.ToRadians(dir));
+            position.X += pix * (float)newX;
+            position.Y += dir * (float)newY;
         }
     }
 }
