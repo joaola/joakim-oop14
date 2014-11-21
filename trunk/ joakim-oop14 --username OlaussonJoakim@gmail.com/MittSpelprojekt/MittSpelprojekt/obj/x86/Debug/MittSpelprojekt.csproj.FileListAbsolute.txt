@@ -4,5 +4,6 @@ C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSp
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\obj\x86\Debug\MittSpelprojekt.exe
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\obj\x86\Debug\MittSpelprojekt.pdb
-C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\tankTurret.xnb
-C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\rocket-md.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\ship_1.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\crosshair_1.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\block_null.xnb

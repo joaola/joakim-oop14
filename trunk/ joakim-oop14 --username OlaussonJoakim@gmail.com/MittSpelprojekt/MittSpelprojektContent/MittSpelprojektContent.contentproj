@@ -30,15 +30,22 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="sprites\tankTurret.png">
-      <Name>tankTurret</Name>
+    <Compile Include="sprites\ship_1.png">
+      <Name>ship_1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="sprites\rocket-md.png">
-      <Name>rocket-md</Name>
+    <Compile Include="sprites\crosshair_1.png">
+      <Name>crosshair_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\block_null.png">
+      <Name>block_null</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

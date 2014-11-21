@@ -15,8 +15,9 @@ namespace MittSpelprojekt
     class Obj
     {
         public Vector2 position;
+        //public Vector2 mousePosition;
         public float rotation = 0.0f;
-        public string spriteName;
+        public string spriteName = "block_null";
         public Texture2D spriteIndex;
         public float speed = 0.0f;
         public float scale = 1.0f;
@@ -35,16 +36,15 @@ namespace MittSpelprojekt
             pushTo(speed, rotation);
         }
 
-        public virtual void LoadContent(ContentManager content, string sprName)
+        public virtual void LoadContent(ContentManager content)
         {
-            spriteName = sprName;
             spriteIndex = content.Load<Texture2D>("sprites\\" + spriteName);
         }
         public virtual void Draw(SpriteBatch spriteBatch)
         {
             Rectangle size;
             Vector2 center = new Vector2(spriteIndex.Width/2, spriteIndex.Height/2);
-            spriteBatch.Draw(spriteIndex, position, null, Color.White, MathHelper.ToRadians(rotation), center, scale, SpriteEffects.None, 0);
+            spriteBatch.Draw(spriteIndex, position, null, Color.White, rotation, center, scale, SpriteEffects.None, 0); //MathHelper.ToRadians(rotation)
         }
         public virtual void pushTo(float pix, float dir)
         {
@@ -55,3 +55,5 @@ namespace MittSpelprojekt
         }
     }
 }
+
+

@@ -19,7 +19,8 @@ namespace MittSpelprojekt
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Ship ship = new Ship(new Vector2(200,200));
+        Ship ship = new Ship(new Vector2(200,50));
+        crosshair Crosshair = new crosshair(new Vector2(0,0));
 
         public Game1()
         {
@@ -49,7 +50,8 @@ namespace MittSpelprojekt
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             // TODO: use this.Content to load your game content here
-            ship.LoadContent(this.Content, "rocket-md");
+            ship.LoadContent(this.Content);
+            Crosshair.LoadContent(this.Content);
         }
 
         /// <summary>
@@ -73,6 +75,7 @@ namespace MittSpelprojekt
                 this.Exit();
             // TODO: Add your update logic here
             ship.Update();
+            Crosshair.Update();
 
             base.Update(gameTime);
         }
@@ -88,8 +91,10 @@ namespace MittSpelprojekt
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             ship.Draw(spriteBatch);
+            Crosshair.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
+            
         }
     }
 }
