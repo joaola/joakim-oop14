@@ -2,22 +2,31 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>sprites\tankTurret.png</Source>
-      <Name>sprites\tankTurret</Name>
+      <Source>sprites\ship_1.png</Source>
+      <Name>sprites\ship_1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\tankTurret.xnb</Output>
-      <Time>2014-11-12T19:16:14.4894563+01:00</Time>
+      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\ship_1.xnb</Output>
+      <Time>2014-11-21T19:47:57.7476004+01:00</Time>
     </Item>
     <Item>
-      <Source>sprites\rocket-md.png</Source>
-      <Name>sprites\rocket-md</Name>
+      <Source>sprites\crosshair_1.png</Source>
+      <Name>sprites\crosshair_1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\rocket-md.xnb</Output>
-      <Time>2014-11-13T16:28:45.462344+01:00</Time>
+      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\crosshair_1.xnb</Output>
+      <Time>2014-11-21T20:17:02.7910768+01:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\block_null.png</Source>
+      <Name>sprites\block_null</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt\MittSpelprojekt\bin\x86\Debug\Content\sprites\block_null.xnb</Output>
+      <Time>2014-11-21T21:03:54.3723061+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
