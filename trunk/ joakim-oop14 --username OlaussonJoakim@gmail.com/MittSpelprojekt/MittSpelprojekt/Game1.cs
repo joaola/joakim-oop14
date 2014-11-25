@@ -74,8 +74,8 @@ namespace MittSpelprojekt
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
             // TODO: Add your update logic here
-            ship.Update();
             Crosshair.Update();
+            ship.Update();
 
             base.Update(gameTime);
         }

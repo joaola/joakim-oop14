@@ -56,7 +56,7 @@ namespace MittSpelprojekt
             base.Update();
         }
 
-            private float point_direction(float x, float y, float x2, float y2){
+            public float point_direction(float x, float y, float x2, float y2){
 
                 float diffx = x - x2; 
                 float diffy = y - y2; 
