@@ -31,7 +31,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tentamen_version3", "tentam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojekt", "MittSpelprojekt\MittSpelprojekt\MittSpelprojekt.csproj", "{ECEC7B16-3465-432E-BDE5-73C13A215A30}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MittSpelprojektContent", "MittSpelprojekt\MittSpelprojektContent\MittSpelprojektContent.contentproj", "{A8852E86-7029-4525-BA60-3087D4BD2C57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojektContent", "MittSpelprojekt\MittSpelprojektContent\MittSpelprojektContent.contentproj", "{A8852E86-7029-4525-BA60-3087D4BD2C57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tentamen_version5", "tentamen_version5\tentamen_version5.vcxproj", "{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,20 @@ Global
 		{A8852E86-7029-4525-BA60-3087D4BD2C57}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{A8852E86-7029-4525-BA60-3087D4BD2C57}.Release|Win32.ActiveCfg = Release|x86
 		{A8852E86-7029-4525-BA60-3087D4BD2C57}.Release|x86.ActiveCfg = Release|x86
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|Win32.Build.0 = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|x86.ActiveCfg = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Debug|x86.Build.0 = Debug|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Win32.ActiveCfg = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Win32.Build.0 = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|x86.ActiveCfg = Release|Win32
+		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
