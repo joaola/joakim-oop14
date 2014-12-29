@@ -1,0 +1,4 @@
+Content\seamless space_0.xnb
+Content\asteroid.xnb
+Content\playerbullet.xnb
+Content\ship_2.xnb

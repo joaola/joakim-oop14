@@ -23,6 +23,9 @@ namespace MittSpelprojekt
         public float scale = 1.0f;
         public Rectangle size;
         public Vector2 center;
+
+        public bool alive = true;
+
         public Obj(Vector2 pos){
             position = pos;
         }
@@ -33,6 +36,8 @@ namespace MittSpelprojekt
         }
         public virtual void Update()
         {
+
+            if (!alive) return;
             pushTo(speed, rotation);
         }
 
@@ -42,6 +47,7 @@ namespace MittSpelprojekt
         }
         public virtual void Draw(SpriteBatch spriteBatch)
         {
+            if (!alive) return; 
             Rectangle size;
             Vector2 center = new Vector2(spriteIndex.Width/2, spriteIndex.Height/2);
             spriteBatch.Draw(spriteIndex, position, null, Color.White, rotation, center, scale, SpriteEffects.None, 0); //MathHelper.ToRadians(rotation)

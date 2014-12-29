@@ -1,9 +1,39 @@
-﻿Build started 2014-12-16 11:23:49.
-     1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_version5\tentamen_version5.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2014-12-28 22:05:41.
+     1>Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_version5\tentamen_version5.vcxproj" on node 5 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttestregister.h(54): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'StudentTest' (or there is no acceptable conversion)
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(26): error C2079: 'oss' uses undefined class 'std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(32): error C2678: binary '<<' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\question.h(32): could be 'std::ostream &operator <<(std::ostream &,const Question &)' [found using argument-dependent lookup]
+                 while trying to match the argument list '(int, Question)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(35): error C2228: left of '.str' must have class/struct/union
+                 type is 'int'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(70): error C2079: 'iss' uses undefined class 'std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(70): error C2440: 'initializing' : cannot convert from 'std::string' to 'int'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(71): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : expects 2 arguments - 3 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(156) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(71): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(71): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : expects 2 arguments - 3 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(125) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(71): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(74): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(156) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(74): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(145) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(74): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(125) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(74): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(72) : see declaration of 'std::getline'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttest.h(79): error C2678: binary '>>' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\question.h(44): could be 'std::istream &operator >>(std::istream &,Question &)' [found using argument-dependent lookup]
+                 while trying to match the argument list '(int, Question)'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttestregister.h(30): error C2084: function 'std::istream &operator >>(std::istream &,Question &)' already has a body
+                 c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\question.h(44) : see previous definition of '>>'
+     1>c:\users\joakim\desktop\ joakim-oop14 --username olaussonjoakim@gmail.com\tentamen_version5\studenttestregister.h(76): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'StudentTest' (or there is no acceptable conversion)
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
@@ -31,8 +61,8 @@
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
                  while trying to match the argument list '(std::istringstream, StudentTest)'
-     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_version5\tentamen_version5.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\tentamen_version5\tentamen_version5.vcxproj" (Rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.48

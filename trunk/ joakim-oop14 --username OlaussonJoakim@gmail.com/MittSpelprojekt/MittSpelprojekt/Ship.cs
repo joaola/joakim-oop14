@@ -20,16 +20,25 @@ namespace MittSpelprojekt
         MouseState prevMouse;
 
         float spd;
+
+        /*För avfyrningskoden*/
+        int bulletSpeed = 10; //projektilens rörelsehastighet
+        const int maxAmmo = 32; //max antalet ammunition
+        int ammo = 32;
+        float rate = 20; //eldgivningshastighet
+        int firingTimer = 0;
+
         public Ship(Vector2 pos)
             : base(pos)
         {
             position = pos;
             spd = 2;
-            spriteName = "ship_1";
+            spriteName = "block_null"; //"ship_1"
 
         }
-        public override void Update()
+        public override void Update() //styr skeppet fram, bak, sidorna och roterar
         {
+            if (!alive) return;
             keyboard = Keyboard.GetState();
             mouse = Mouse.GetState();
             if (keyboard.IsKeyDown(Keys.W)) //rör sig uppåt
@@ -50,22 +59,66 @@ namespace MittSpelprojekt
                 position.X += spd;
             }
 
+            firingTimer++;
+            if (mouse.LeftButton == ButtonState.Pressed){
+                CheckShooting();
+
+            }
+
             rotation = point_direction(position.X, position.Y, mouse.X, mouse.Y);
             prevKeyboard = keyboard;
             prevMouse = mouse;
             base.Update();
         }
 
-            public float point_direction(float x, float y, float x2, float y2){
+        private void CheckShooting()
+        {
+            if (firingTimer > rate && ammo > 0)
+            {
+                firingTimer = 0;
+                Shoot();
+            }
+        }
+
+        private void Shoot()
+        {
+            ammo--;
+
+            foreach (Obj o in Items.objList) //loopar igenom listan
+            {
+                if (o.GetType() == typeof(Bullet) && !o.alive) //om det är en Bullet och den är inaktiv
+                {
+                    o.position = position;
+                    o.rotation = rotation;
+                    o.speed = bulletSpeed;
+                    o.alive = true;
+
+                    break;
+                }
+            }
+        }
+
+            public float point_direction(float x, float y, float x2, float y2){ //skeppets riktning
 
                 float diffx = x - x2; 
                 float diffy = y - y2; 
+                float adj = diffx; 
+                float opp = diffy; 
+                float tan = opp / adj; 
+                float res = MathHelper.ToDegrees((float)Math.Atan2(opp, adj)); 
+                res = (res - 180) % 360; 
+                if (res < 0) { 
+                    res += 360; } 
+                return res; 
+         
+
+                /*float diffx = x - x2; 
+                float diffy = y - y2; 
                 float rot = (float)Math.Atan2(diffy, diffx); 
-                return rot;
+                return rot;*/
                 
                
             }
-            
     }
 }
 

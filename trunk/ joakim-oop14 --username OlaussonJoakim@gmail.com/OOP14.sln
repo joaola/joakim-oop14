@@ -29,11 +29,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tentamen_version4", "tentam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tentamen_version3", "tentamen_version3\tentamen_version3.vcxproj", "{EE5697C4-85BE-4045-9221-97318ED88A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojekt", "MittSpelprojekt\MittSpelprojekt\MittSpelprojekt.csproj", "{ECEC7B16-3465-432E-BDE5-73C13A215A30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Spelprojekt", "MittSpelprojekt\MittSpelprojekt\Test_Spelprojekt.csproj", "{ECEC7B16-3465-432E-BDE5-73C13A215A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojektContent", "MittSpelprojekt\MittSpelprojektContent\MittSpelprojektContent.contentproj", "{A8852E86-7029-4525-BA60-3087D4BD2C57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SpelprojektContent", "MittSpelprojekt\MittSpelprojektContent\Test_SpelprojektContent.contentproj", "{A8852E86-7029-4525-BA60-3087D4BD2C57}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tentamen_version5", "tentamen_version5\tentamen_version5.vcxproj", "{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojekt_Asteroid", "MittSpelprojekt_version2\MittSpelprojekt_version2\MittSpelprojekt_Asteroid.csproj", "{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MittSpelprojekt_AsteroidContent", "MittSpelprojekt_version2\MittSpelprojekt_version2Content\MittSpelprojekt_AsteroidContent.contentproj", "{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +267,28 @@ Global
 		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|Win32.Build.0 = Release|Win32
 		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|x86.ActiveCfg = Release|Win32
 		{D48E99A7-CDB9-4E71-A6A4-6E51A32C3332}.Release|x86.Build.0 = Release|Win32
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|Win32.ActiveCfg = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|Win32.Build.0 = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|x86.ActiveCfg = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Debug|x86.Build.0 = Debug|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|Any CPU.ActiveCfg = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|Win32.ActiveCfg = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|Win32.Build.0 = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|x86.ActiveCfg = Release|x86
+		{5047F611-4AEA-4AC1-9CDA-98CD1B84EB27}.Release|x86.Build.0 = Release|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Debug|Win32.ActiveCfg = Debug|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Debug|x86.ActiveCfg = Debug|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Release|Any CPU.ActiveCfg = Release|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Release|Win32.ActiveCfg = Release|x86
+		{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
