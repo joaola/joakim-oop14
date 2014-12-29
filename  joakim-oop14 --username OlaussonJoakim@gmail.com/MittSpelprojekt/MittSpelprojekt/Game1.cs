@@ -37,7 +37,7 @@ namespace MittSpelprojekt
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            Items.Initilize();
             base.Initialize();
         }
 
@@ -49,9 +49,12 @@ namespace MittSpelprojekt
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
             // TODO: use this.Content to load your game content here
-            ship.LoadContent(this.Content);
-            Crosshair.LoadContent(this.Content);
+            foreach (Obj o in Items.objList)
+            {
+                o.LoadContent(this.Content);
+            }
         }
 
         /// <summary>
@@ -74,8 +77,12 @@ namespace MittSpelprojekt
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
             // TODO: Add your update logic here
-            Crosshair.Update();
-            ship.Update();
+            foreach (Obj o in Items.objList)
+            {
+                o.Update();
+            }
+            //Crosshair.Update();
+            //ship.Update();
 
             base.Update(gameTime);
         }
@@ -90,8 +97,12 @@ namespace MittSpelprojekt
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            ship.Draw(spriteBatch);
-            Crosshair.Draw(spriteBatch);
+            foreach (Obj o in Items.objList)
+            {
+                o.Draw(spriteBatch);
+            }
+            //ship.Draw(spriteBatch);
+            //Crosshair.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
             

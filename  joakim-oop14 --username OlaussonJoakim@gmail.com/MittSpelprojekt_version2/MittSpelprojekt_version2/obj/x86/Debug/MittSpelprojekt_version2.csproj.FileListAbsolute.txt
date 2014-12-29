@@ -1,0 +1,10 @@
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\MittSpelprojekt_version2.exe
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\MittSpelprojekt_version2.pdb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\MittSpelprojekt_version2.exe
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\MittSpelprojekt_version2.pdb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\seamless space_0.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\asteroid.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\playerbullet.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\MittSpelprojekt_version2.csprojResolveAssemblyReference.cache
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\ship_2.xnb
