@@ -59,8 +59,15 @@ namespace MittSpelprojekt_version2
 
         public void Update(GameTime gameTime)
         {
-            
+
+            //Tangentbordets tillstånd
             KeyboardState keyState = Keyboard.GetState();
+
+            //kollisionsbox (boundingbox) för spelaren
+            boundingBox = new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height);
+
+
+
             //Avfyra vapen
             if (keyState.IsKeyDown(Keys.Space))
             {
@@ -116,7 +123,7 @@ namespace MittSpelprojekt_version2
 
             //Återställer bulletDelay
             if (bulletDelay == 0)
-                bulletDelay = 15;
+                bulletDelay = 20;
         }
 
         //Update bullet
@@ -125,7 +132,8 @@ namespace MittSpelprojekt_version2
             //Varje Bullet i bulletList uppdaterar dess rörelse och om en Bullet når slutet av spelfönstret så raderas Bullet från listan
             foreach (Bullet b in bulletList)
             {
-
+                //Kollisionsbox för kulorna/Bullet
+                b.boundingBox = new Rectangle((int)b.position.X, (int)b.position.Y, b.texture.Width, b.texture.Height);
                 //Bullets rörelse
                 b.position.Y = b.position.Y - b.speed;
 
