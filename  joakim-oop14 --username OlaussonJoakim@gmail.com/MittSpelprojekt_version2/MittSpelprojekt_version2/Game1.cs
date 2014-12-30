@@ -18,10 +18,12 @@ namespace MittSpelprojekt_version2
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Random random = new Random();
 
+        List<Asteroid> asteroidList = new List<Asteroid>();
         Player p = new Player();
         Field f = new Field();
-        Asteroid a = new Asteroid();
+        //Asteroid a = new Asteroid();
 
         public Game1()
         {
@@ -58,7 +60,7 @@ namespace MittSpelprojekt_version2
             // TODO: use this.Content to load your game content here
             p.LoadContent(Content);
             f.LoadContent(Content);
-            a.LoadContent(Content);
+            //a.LoadContent(Content);
         }
 
         /// <summary>
@@ -81,9 +83,35 @@ namespace MittSpelprojekt_version2
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
             // TODO: Add your update logic here
+
+            //a.Update(gameTime);
+
+            //Uppdatera för varje asteroid i listan + kolla om kollision = ta bort asteroid
+            foreach (Asteroid a in asteroidList)
+            {
+                
+
+                if (a.boundingBox.Intersects(p.boundingBox))
+                {
+                    a.isVisible = false;
+                }
+
+                //Iterera genom bulletList och kolla om någon Bullet kolliderar med en asteroid
+                for (int i = 0; i < p.bulletList.Count; i++)
+                {
+                    if (a.boundingBox.Intersects(p.bulletList[i].boundingBox))
+                    {
+                        a.isVisible = false;
+                        p.bulletList.ElementAt(i).isVisible = false;
+                    }
+                }
+
+                    a.Update(gameTime);
+            }
+
             p.Update(gameTime);
             f.Update(gameTime);
-            a.Update(gameTime);
+            LoadAsteroids();
 
             base.Update(gameTime);
         }
@@ -101,12 +129,40 @@ namespace MittSpelprojekt_version2
 
             f.Draw(spriteBatch);
             p.Draw(spriteBatch);
-            a.Draw(spriteBatch);
+
+            //a.Draw(spriteBatch);
+
+            foreach (Asteroid a in asteroidList)
+            {
+                a.Draw(spriteBatch);
+            }
 
             spriteBatch.End();
 
 
             base.Draw(gameTime);
+        }
+        //Ladda in asteroider i spelet
+        public void LoadAsteroids()
+        {
+            //Random variabler för x- och y-axlarna 
+            int randY = random.Next(-600, -50);
+            int randX = random.Next(0,750);
+
+            if (asteroidList.Count() < 5)
+            {
+                asteroidList.Add(new Asteroid(Content.Load<Texture2D>("asteroid"), new Vector2(randX, randY)));
+            }
+
+            //Tar bort asteroider som blir förstörda av skeppet
+            for (int i = 0; i < asteroidList.Count; i++)
+            {
+                if (!asteroidList[i].isVisible)
+                {
+                    asteroidList.RemoveAt(i);
+                    i--;
+                }
+            }
         }
     }
 }
