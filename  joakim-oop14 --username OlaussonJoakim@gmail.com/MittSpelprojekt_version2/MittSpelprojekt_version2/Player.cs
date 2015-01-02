@@ -14,14 +14,14 @@ namespace MittSpelprojekt_version2
     public class Player
     {
        
-        public Texture2D texture, bulletTexture;
-        public Vector2 position;
-        public int speed;
+        public Texture2D texture, bulletTexture, healthTexture;
+        public Vector2 position, healthBarPosition;
+        public int speed, health;
         public float bulletDelay;
         public List<Bullet>bulletList;
 
         //Variabler för kollision
-        public Rectangle boundingBox;
+        public Rectangle boundingBox, healthRectangle;
         public bool isColiding;
 
         //Konstruktor
@@ -33,7 +33,8 @@ namespace MittSpelprojekt_version2
             bulletDelay = 20;
             speed = 10;
             isColiding = false;
-
+            health = 200;
+            healthBarPosition = new Vector2(50,50);
         }
 
         //Load content
@@ -42,12 +43,14 @@ namespace MittSpelprojekt_version2
         {
             texture = Content.Load<Texture2D>("ship_2");
             bulletTexture = Content.Load<Texture2D>("playerbullet");
+            healthTexture = Content.Load<Texture2D>("healthbar");
 
         }
         //Draw
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(texture, position, Color.White);
+            spriteBatch.Draw(healthTexture, healthRectangle, Color.White);
             foreach (Bullet b in bulletList)
             {
                 b.Draw(spriteBatch);
@@ -66,6 +69,9 @@ namespace MittSpelprojekt_version2
             //kollisionsbox (boundingbox) för spelaren
             boundingBox = new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height);
 
+
+            //Rektangel för healthbare:en
+            healthRectangle = new Rectangle((int)healthBarPosition.X, (int)healthBarPosition.Y, health, 25);
 
 
             //Avfyra vapen

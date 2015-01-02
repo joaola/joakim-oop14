@@ -93,7 +93,12 @@ namespace MittSpelprojekt_version2
 
                 if (a.boundingBox.Intersects(p.boundingBox))
                 {
+                    p.health -= 20;
                     a.isVisible = false;
+                    if (p.health <= 0) //Om player får slut på liv
+                    {
+                        
+                    }
                 }
 
                 //Iterera genom bulletList och kolla om någon Bullet kolliderar med en asteroid
@@ -149,7 +154,7 @@ namespace MittSpelprojekt_version2
             int randY = random.Next(-600, -50);
             int randX = random.Next(0,750);
 
-            if (asteroidList.Count() < 5)
+            if (asteroidList.Count() < 15)
             {
                 asteroidList.Add(new Asteroid(Content.Load<Texture2D>("asteroid"), new Vector2(randX, randY)));
             }

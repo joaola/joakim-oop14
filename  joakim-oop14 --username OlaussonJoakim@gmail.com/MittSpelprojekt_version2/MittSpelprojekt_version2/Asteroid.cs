@@ -64,17 +64,17 @@ namespace MittSpelprojekt_version2
                 position.Y = -50;
 
             //Rotera asteroiden
-            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            rotationAngle += elapsed;
-            float circle = MathHelper.Pi * 2;
-            rotationAngle = rotationAngle % circle;
+            //float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            //rotationAngle += elapsed;
+            //float circle = MathHelper.Pi * 2;
+            //rotationAngle = rotationAngle % circle;
         }
 
         //Draw
         public void Draw(SpriteBatch spriteBatch)
         {
             if (isVisible) //(!destroyed)
-                spriteBatch.Draw(texture, position, null, Color.White, rotationAngle, origin, 1.0f, SpriteEffects.None, 0f);
+                spriteBatch.Draw(texture, position, Color.White); //spriteBatch.Draw(texture, position, null, Color.White, rotationAngle, origin, 1.0f, SpriteEffects.None, 0f);
         }
     }
 }

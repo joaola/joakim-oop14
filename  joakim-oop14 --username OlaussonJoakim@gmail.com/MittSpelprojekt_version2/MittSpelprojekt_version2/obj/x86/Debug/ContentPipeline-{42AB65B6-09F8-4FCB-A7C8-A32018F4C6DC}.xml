@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\playerbullet.xnb</Output>
-      <Time>2014-12-29T09:52:17.1191187+01:00</Time>
+      <Time>2015-01-02T22:56:09.785246+01:00</Time>
     </Item>
     <Item>
       <Source>ship_2.png</Source>
@@ -36,6 +36,15 @@
       <Options>None</Options>
       <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\ship_2.xnb</Output>
       <Time>2014-12-29T10:48:55.2050745+01:00</Time>
+    </Item>
+    <Item>
+      <Source>healthbar.png</Source>
+      <Name>healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\healthbar.xnb</Output>
+      <Time>2015-01-02T23:01:06.1327623+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
