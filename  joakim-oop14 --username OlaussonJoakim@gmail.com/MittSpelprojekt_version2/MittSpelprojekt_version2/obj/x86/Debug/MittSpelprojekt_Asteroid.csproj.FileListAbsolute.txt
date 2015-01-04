@@ -9,3 +9,5 @@ C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSp
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\MittSpelprojekt_version2.pdb
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\MittSpelprojekt_Asteroid.csprojResolveAssemblyReference.cache
 C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\healthbar.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\menu.xnb
+C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\gameOverPic.xnb
