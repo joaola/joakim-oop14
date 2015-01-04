@@ -19,7 +19,6 @@ namespace MittSpelprojekt_version2
         public Vector2 origin; //Mittpunkten av spriten
         public float rotationAngle;
         public int speed;
-        //public bool isColliding, destroyed;
         public bool isVisible;
         Random random = new Random();
         public float randX, randY;
@@ -28,7 +27,7 @@ namespace MittSpelprojekt_version2
 
         public Asteroid(Texture2D newTexture, Vector2 newPosition)
         {
-            position = newPosition; //new Vector2 (400, -70);
+            position = newPosition;
             texture = newTexture;
             speed = 4;
 
@@ -37,14 +36,11 @@ namespace MittSpelprojekt_version2
             randX = random.Next(0,750);
             randY = random.Next(-600,-50);
             
-            //isColliding = false;
-            //destroyed = false;
         }
 
         //Load Content
         public void LoadContent(ContentManager Content)
         {
-            //texture = Content.Load<Texture2D>("asteroid");
             
         }
 
@@ -73,7 +69,7 @@ namespace MittSpelprojekt_version2
         //Draw
         public void Draw(SpriteBatch spriteBatch)
         {
-            if (isVisible) //(!destroyed)
+            if (isVisible)
                 spriteBatch.Draw(texture, position, Color.White); //spriteBatch.Draw(texture, position, null, Color.White, rotationAngle, origin, 1.0f, SpriteEffects.None, 0f);
         }
     }
