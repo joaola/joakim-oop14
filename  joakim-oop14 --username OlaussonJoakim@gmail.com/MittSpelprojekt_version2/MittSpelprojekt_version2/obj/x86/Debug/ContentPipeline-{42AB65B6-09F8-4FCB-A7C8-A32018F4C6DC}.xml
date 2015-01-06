@@ -64,6 +64,15 @@
       <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\gameOverPic.xnb</Output>
       <Time>2015-01-03T16:38:57.6700107+01:00</Time>
     </Item>
+    <Item>
+      <Source>Font1.spritefont</Source>
+      <Name>Font1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joakim\Desktop\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\Font1.xnb</Output>
+      <Time>2015-01-03T16:53:28.4402857+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{42AB65B6-09F8-4FCB-A7C8-A32018F4C6DC}</ContentProjectGUID>
