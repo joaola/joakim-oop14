@@ -140,6 +140,7 @@ namespace MittSpelprojekt_version2
                         //h.Update(gameTime);
                         p.Update(gameTime);
                         f.Update(gameTime);
+                        h.Update(gameTime);
                         LoadAsteroids();
                         break;
 
@@ -166,7 +167,11 @@ namespace MittSpelprojekt_version2
 
                         //Tryck på Escape för att komma till menyn igen
                         if (keyState.IsKeyDown(Keys.Escape))
+                        {
                             gameState = State.Menu;
+                            p.health = 200;
+                            h.playerScore = 0;
+                        }
                         break;
                     }
             }
@@ -198,8 +203,11 @@ namespace MittSpelprojekt_version2
                             a.Draw(spriteBatch);
                         }
 
+                        h.Draw(spriteBatch);
+
                         break;
                     }
+
                     //Draw, meny
                 case State.Menu:
                     {
@@ -212,7 +220,8 @@ namespace MittSpelprojekt_version2
                 case State.GameOver:
                     {
 
-                        spriteBatch.Draw(gameOverImage, new Vector2(-20,0), Color.Black);                        
+                        spriteBatch.Draw(gameOverImage, new Vector2(-20,0), Color.Black);
+                        h.Draw(spriteBatch);
                         break;
                     }
             }
@@ -240,6 +249,7 @@ namespace MittSpelprojekt_version2
                 {
                     asteroidList.RemoveAt(i);
                     i--;
+                    h.playerScore += 10;
                 }
             }
         }
