@@ -58,12 +58,6 @@ namespace MittSpelprojekt_version2
             position.Y = position.Y + speed;
             if (position.Y >= 750)
                 position.Y = -50;
-
-            //Rotera asteroiden
-            //float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //rotationAngle += elapsed;
-            //float circle = MathHelper.Pi * 2;
-            //rotationAngle = rotationAngle % circle;
         }
 
         //Draw

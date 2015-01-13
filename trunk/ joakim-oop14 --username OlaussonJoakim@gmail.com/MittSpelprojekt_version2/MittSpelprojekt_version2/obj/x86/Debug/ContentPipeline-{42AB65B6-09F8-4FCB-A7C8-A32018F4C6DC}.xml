@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\seamless space_0.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\seamless space_0.xnb</Output>
       <Time>2015-01-11T22:49:49.2588581+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\asteroid.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\asteroid.xnb</Output>
       <Time>2015-01-11T22:49:49.3369892+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\playerbullet.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\playerbullet.xnb</Output>
       <Time>2015-01-11T22:49:49.1651013+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\ship_2.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\ship_2.xnb</Output>
       <Time>2015-01-11T22:49:49.1651013+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\healthbar.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\healthbar.xnb</Output>
       <Time>2015-01-11T22:49:49.3213848+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\menu.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\menu.xnb</Output>
       <Time>2015-01-11T22:49:49.1651013+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\gameOverPic.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\gameOverPic.xnb</Output>
       <Time>2015-01-11T22:49:49.1338484+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\Font1.xnb</Output>
+      <Output>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\Font1.xnb</Output>
       <Time>2015-01-11T22:49:49.1338484+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -80,10 +80,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Joakim\Downloads\ joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Joakim\Desktop\joakim-oop14 --username OlaussonJoakim@gmail.com\MittSpelprojekt_version2\MittSpelprojekt_version2\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
